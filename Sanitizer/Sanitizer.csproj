@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Alexander-Paul Iudik</Authors>
+    <Company></Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A tool to secure HTML Code for malitious XSS Scrips.
+Filter &lt;script&gt;, JavaScript, JQuery, onclick and malitious href.
+
+Ein Tool um HTML Code vor XSS Scripts, Hrefs, Javascript, onclick und JQuery zu befreien.</Description>
+    <Copyright></Copyright>
+    <AssemblyVersion>0.9.0.0</AssemblyVersion>
+    <FileVersion>0.9.0.0</FileVersion>
+    <PackageReleaseNotes>Testversion</PackageReleaseNotes>
+    <Version>0.9.0.0</Version>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <NeutralLanguage></NeutralLanguage>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+
+</Project>
